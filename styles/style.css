@@ -255,8 +255,76 @@ select {
 }
 
 
+/* choosing-section */
 
+.choose {
+    color: #131318;
+    padding: 100px 135px;
+}
 
+.choose-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.choose-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.7);
+    padding-bottom: 32px;
+}
+
+.box {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+
+.box1 {
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    padding: 30px 40px;
+}
+
+.box2 {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    padding: 30px 40px;
+}
+
+.box3 {
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    padding: 30px 40px;
+    margin: 30px 200px 50px;
+}
+
+.box img,
+.box3 img {
+    width: 50px;
+    padding-bottom: 30px;
+}
+
+.box-title {
+    font-weight: 800;
+    font-size: 24px;
+    padding-bottom: 18px;
+}
+
+.box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+
+}
 
 
 
@@ -294,8 +362,8 @@ select {
 
     .place1,
     .place2,
-    .place3{
-        grid-template-columns: repeat(1,1fr);
+    .place3 {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .maldive,
@@ -304,7 +372,26 @@ select {
     .kashmir,
     .srilanka,
     .bangla,
-    .bandarban{
+    .bandarban {
         padding: 50px;
     }
+
+    .choose {
+        padding: 20px;
+    }
+
+    .choose-title {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box3{
+        margin: 0px;
+        margin-top: 20px;
+    }
+     
 }
