@@ -46,7 +46,7 @@ nav li {
     color: #131318;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -261,7 +261,9 @@ select {
 
 
 @media screen and (max-width:600px) {
-    nav {
+
+    nav,
+    .popular {
         flex-direction: column;
         padding: 20px;
 
@@ -284,6 +286,25 @@ select {
 
     .explore-form {
         flex-direction: column;
-        backdrop-filter: ;
+    }
+
+    .popular-img img {
+        width: 100%;
+    }
+
+    .place1,
+    .place2,
+    .place3{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .maldive,
+    .indonesia,
+    .america,
+    .kashmir,
+    .srilanka,
+    .bangla,
+    .bandarban{
+        padding: 50px;
     }
 }
