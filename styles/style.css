@@ -519,6 +519,41 @@ select {
 }
 
 
+/* started the footer */
+
+footer{
+    padding: 100px 200px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.footer-text{
+    padding-bottom: 30px;
+}
+
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
 @media screen and (max-width:600px) {
 
     nav,
@@ -563,7 +598,7 @@ select {
     .kashmir,
     .srilanka,
     .bangla,
-    .bandarban {
+    .bandarban{
         padding: 50px;
     }
 
@@ -643,6 +678,10 @@ select {
 
     .tag-title{
         font-size: 20px;
+    }
+
+    footer{
+        padding: 20px;
     }
 
 }
