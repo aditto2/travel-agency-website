@@ -100,7 +100,7 @@ select {
     padding: 14px 24px;
     border: 0;
     border-radius: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* main-section */
@@ -321,11 +321,101 @@ select {
 .box-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     color: #5A5A5D;
-
 }
 
+/* discount-section */
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-content h3 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.discount-content p {
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5D;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #131318;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5A5A5D;
+    padding-bottom: 15px;
+}
+
+.card-price {
+    font-weight: 800;
+    font-size: 20px;
+    color: #FF5400;
+    padding-bottom: 24px;
+}
+
+.card-list {
+    gap: 20px;
+    display: flex;
+}
+
+.card-list i {
+    color: #FF5400;
+}
+
+.first-card {
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 50px 50px 500px;
+    margin: 150px 60px 24px;
+    border-radius: 16px;
+}
+
+.second-card {
+    background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 500px 50px 50px;
+    margin: 150px 60px 24px;
+    border-radius: 16px;
+}
+
+.third-card {
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 50px 50px 500px;
+    margin: 150px 60px 24px;
+    border-radius: 16px;
+}
+
+.card1,
+.card2,
+.card3 {
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    padding: 50px;
+}
 
 
 @media screen and (max-width:600px) {
@@ -389,9 +479,35 @@ select {
         flex-direction: column;
     }
 
-    .box3{
+    .box3 {
         margin: 0px;
         margin-top: 20px;
     }
-     
+
+    .first-card,
+    .second-card,
+    .third-card {
+        /* padding-top: 30px; */
+        padding: 80px 20px  20px;
+        margin: 20px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .card-title,
+    .card-price{
+        padding: 10px 0 10px 0;
+    }
+    .card-text{
+        padding-bottom: 0;
+    }
+
+    .card-list{
+        flex-direction: column;
+    }
 }
